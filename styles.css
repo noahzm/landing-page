@@ -1,5 +1,38 @@
-@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,400;0,800;1,100&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,400;0,700;1,100&display=swap");
 
 body {
-    font-family: 'Barlow', sans-serif;
+  font-family: "Barlow", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #1f2937;
+  padding: 16px 15% 16px 15%;
+}
+
+.logo {
+  color: #f9faf8;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+header a {
+  font-size: 18px;
+  color: #e5e7eb;
+  text-decoration: none;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+ul {
+  list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 16px;
 }
