@@ -36,3 +36,41 @@ ul {
   padding: 0;
   gap: 16px;
 }
+
+.hero {
+  background-color: #1f2937;
+  padding: 64px 15% 16px 15%;
+  color: #f9faf8;
+  display: flex;
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    padding: 16px;
+}
+
+.title {
+  font-size: 48px;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+}
+
+.hero-image {
+    padding: 16px;
+    max-width: 300px;
+    max-height: 300px;
+}
+
+button {
+    line-height: 2.5;
+    padding: 0 20px;
+    background-color: #3882f6;
+    color: white;
+    border-radius: 10px;
+    border: 0;
+    font-weight: bold;
+    font-size: 16px;
+    width: 150px;
+}
