@@ -61,6 +61,7 @@ ul {
     padding: 16px;
     max-width: 300px;
     max-height: 300px;
+    border-radius: 20px;
 }
 
 button {
@@ -73,4 +74,38 @@ button {
     font-weight: bold;
     font-size: 16px;
     width: 150px;
+}
+
+.info {
+  padding: 32px 15% 32px 15%;
+  display: flex;
+  justify-content: center;
+}
+
+.info-header {
+  font-size: 36px;
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+}
+
+.info-body {
+  text-align: center;
+  gap: 36px;
+}
+
+.info-image {
+  max-width: 175px;
+  max-height: 175px;
+  border-radius: 20px;
+  border: solid 4px #3882f6;
+}
+
+.quote {
+  font-size: 48px;
+  font-style: italic;
+  font-weight: lighter;
+  background-color: #e5e7eb;
+  padding: 32px 15% 32px 15%;
+
 }
