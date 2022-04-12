@@ -102,10 +102,19 @@ button {
 }
 
 .quote {
-  font-size: 48px;
+  background-color: #e5e7eb;
+  padding: 64px 20% 64px 20%;
+}
+
+.quote .text {
+  font-size: 36px;
   font-style: italic;
   font-weight: lighter;
-  background-color: #e5e7eb;
-  padding: 32px 15% 32px 15%;
+}
 
+.quote .sign {
+  display: flex;
+  justify-content: flex-end;
+  font-weight: bold;
+  font-size: 24px;
 }
